@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>vue-boolzapp</title>
+</head>
+<body>
+    
+    <div id="app">
+        <section class="section">
+            <div class="container-1 app">
+                <main class="row">
+                    <div class="content col-4">
+                        <section class="section-one">
+                            
+                                <img src="./img/avatar_io.jpg" id="avatar" width="40" height="40" alt="avatar_io">
+                                Nome utente
+                                <span id="icon">
+                                    <i class="fas fa-circle-notch"></i>
+                                    <i class="fas fa-comment-alt"></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </span>
+                           </section> 
+  
+                        
+                    </div>
+                    <div class="content col-8">
+                          <section class="section-two">
+                            <span>
+                                <img src="./img/avatar_1.jpg" alt="Michele" id="avatar" width="40" height="40">Michele
+                                <span class="mik-left">
+                                    <span>ultimo accesso</span>
+                                </span>
+                            </span>
+                            <span id="icon-2">
+                                <i class="fas fa-search"></i>
+                                <i class="fas fa-paperclip"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </span>
+                          </section>
+                    </div>
+
+                   <div class="sidebar col-md-3 col-xs-1"> 
+    
+                    <div class="alert-mess">
+                       <span class="camp">
+                        <i class="fas fa-bell-slash"></i>
+                        </span>
+                            ricevi notifiche di nuovi messaggi
+                            <u id="desk">attiva notifiche desktop</u>
+                    </div>
+                    
+                    <div id="search">
+                        <i class="fas fa-search" id="icon-3"></i>
+                        <input  class="input" id="inputlupa" name="name" type="text" placeholder="cerca o inizia una nuova chat" >
+                    </div>
+                    <br>
+                     <!-- lista utenti -->
+                    <div class="list-box">
+                      <ul>
+                        <li>
+                            <img src="./img/avatar_1.jpg" alt="Michele" id="avatar" width="40" height="40">
+                            Michele
+                        </li>
+                        <hr id="hr-h">
+                        <li>
+                            <img src="./img/avatar_2.jpg" alt="Fabio" id="avatar" width="40" height="40">
+                            Fabio
+                        </li>
+                        <hr id="hr-h">
+                        <li>
+                            <img src="./img/avatar_3.jpg" alt="Samuele" id="avatar" width="40" height="40">
+                            Samuele
+                        </li>
+                        <hr id="hr-h">
+                        <li>
+                            <img src="./img/avatar_4.jpg" alt="Luisa" id="avatar" width="40" height="40">
+                            Luis
+                        </li> 
+                      </ul>
+                    </div>  
+                       <br>
+                       <br>
+                       <br>
+                    </div>
+                    
+                   <!-- sezione messaggi -->
+                   <div class="section-bg">
+                       <div class="box-bg"> 
+                         <span class="color-green">Hai portato a spasso il cane?</span>
+                         <br>
+                         <span class="color-green">Ricordati di dargli da mangiare</span>
+                         <br>
+                         <span class="color-white">Tutto fatto!.. :D</span>
+                       </div>
+                   </div>
+                   
+                </main>
+     
+           <footer>
+               <div class="row">
+                     <div class="col-10">
+                           <ul class="ul-2-footer"> 
+                            <li class="timer"><i class="far fa-smile" id="icons-ft"></i></li>
+                            <li class="bar-video">
+                              <section class="bar-1">
+                                <section class="bar-2"><input  class="input" id="msn-ft" type="text" placeholder="scrivi un messaggio" ></section>
+                              </section>
+                            </li> 
+                            <li class="timer"><i class="fas fa-microphone" id="icons-ft-1"></i></li>
+                             
+                        </ul>
+                     
+                     </div>
+               </div>
+                
+           </footer>
+         </div>
+            
+    </div>
+     
+     
+     
+    
+
+    <script src="JS/script.js"></script>  
+</body>
+</html>

@@ -1,0 +1,158 @@
+
+body{
+    background: linear-gradient(180deg, rgba(0,150,136,1) 0%, rgba(0,150,136,1) 15%, rgba(217,219,212,1) 15%);
+    
+}
+
+
+.section-one{
+    width: 285px; 
+    border-right: gray 1px solid;
+}
+
+
+
+.avatar-io{ 
+    background-color: rgba(212, 207, 207);
+   
+}
+#avatar{
+    border-radius: 50%;
+}
+
+#icon{
+   color: rgba(68, 64, 64, 0.5);
+   margin-left: 40px;
+}
+
+#icon-2{
+    color: rgba(68, 64, 64, 0.5);
+    margin-left: 490px;
+}
+
+#icon-3{
+    color: rgba(68, 64, 64, 0.5);
+    
+}
+#app{
+    margin: 50px;
+}
+
+.mik-left{
+   
+    font-size: 9px;
+}
+.sidebar{
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    border-right-color: gray solid 1px;
+    
+}
+
+
+.content{
+    height: 50px;
+    background-color: rgb(212, 207, 207);
+}
+main{
+    
+    background-image: url(../img/mine.jpg);
+
+}
+
+
+li{
+    /* display: inline-block; */
+    line-height: 50px;
+}
+
+
+.alert-mess{
+    background-color: rgb(72, 191, 221);
+    width: 285px;
+    margin-bottom: 10px;
+}
+#desk{
+    margin-left: 25px;
+}
+.camp{
+    color: rgba(167, 162, 162, 0.425);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#search{
+    border:rgba(167, 162, 162, 0.425) solid;
+}
+
+.input{
+    border-color: rgb(255, 255, 255) solid ;
+    
+}
+
+.list-box{
+    border-right: rgba(226, 216, 216, 0.829) solid 1px;
+}
+#hr-h{
+    border-right: rgba(226, 216, 216, 0.623) solid 1px;
+}
+
+.section-bg{
+    width: 700px;
+    margin:20px;
+    margin-left: 100px;
+    border:rgb(204, 203, 203) solid 1px;
+    border-radius: 10px;
+    
+}
+
+.color-green{
+    margin-left: 420px;
+    background-color: rgb(27, 204, 65);
+    border-radius: 20px;
+    /* height: 80px;
+    width: 100px; */
+}
+
+.color-white{
+    /* height: 100px; */
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* footer{
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+}
+
+#msn.ft{
+    margin-left: 200px;
+}
+.ul-footer{
+    display: flex;
+    flex-basis: 60px;
+    
+    
+}
+
+ul:first-child{
+    flex-basis: 100px;
+    align-items: center;
+}
+
+ul:last-child{
+    flex-basis: 200px;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.bar-video{
+    flex-grow: 1;
+}
+
+.ul-2-footer{
+    align-items: center;
+   } */
