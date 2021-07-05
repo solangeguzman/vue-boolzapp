@@ -80,7 +80,7 @@
                         <div class="list-box">
                             <div  v-for="(contact,index) in filtcon" @click="moveTo(index)">
                                 <img :src="returniMg(contact)" class="img" alt="img">
-                                    <h6 class="listname">{{contact.name}}</h6>
+                                    <h4 class="listname">{{contact.name}}</h4>
                                     <div class="msnL">{{contact.messages[contact.messages.length -1].text}}</div>
                                     <div class="date"> {{contact.messages[contact.messages.length-1].date}}</div>
                             </div>
